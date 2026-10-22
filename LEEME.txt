@@ -2,8 +2,9 @@ GUATEMALA, MEDIDA EN VIDAS
 Revista digital estática · HTML, CSS y JavaScript · Sin dependencias externas
 
 ABRIR
-Abre index.html en cualquier navegador. No requiere instalación ni servidor.
-Conserva index.html, styles.css y app.js en la misma carpeta.
+Abre menu.html para explorar el menú de capítulos.
+Abre index.html para leer directamente el capítulo 1 (Tikal). No requiere instalación ni servidor.
+Conserva todas las páginas, estilos y scripts junto con la carpeta assets/.
 
 EDITAR
 Los textos y los bloques pendientes se encuentran en index.html.
@@ -24,7 +25,7 @@ PENDIENTES DEL CONTENIDO ORIGINAL
 • El dato histórico de esperanza de vida de Prensa Libre usa otra medición.
 
 PUBLICAR
-Puedes subir estos tres archivos a un alojamiento estático, como GitHub Pages
+Puedes subir toda la carpeta a un alojamiento estático, como GitHub Pages
  o Netlify. Sitúa index.html en la raíz de publicación. No hay proceso de build.
 La herramienta Sites no está habilitada en el espacio de trabajo actual;
 esta entrega no incluye una dirección web publicada.
@@ -32,3 +33,25 @@ esta entrega no incluye una dirección web publicada.
 PRIVACIDAD
 No se añaden rastreadores, formularios ni servicios externos. El botón de tema
 recuerda la preferencia en este navegador mediante localStorage cuando está disponible.
+
+MENÚ POR CAPÍTULOS
+menu.html: índice visual de seis capítulos con portadas ilustradas.
+index.html: capítulo 1, Tikal, tonos verdes y contenido existente.
+capitulo-2.html: próxima entrega, Lago de Atitlán, tonos azules.
+capitulo-3.html a capitulo-6.html: propuestas visuales de destinos futuros.
+No contienen temas académicos inventados. Los destinos pueden cambiarse.
+
+capitulos.css: diseño del menú y portadas de próximas entregas.
+tikal.css: identidad del primer capítulo, sobre styles.css.
+assets/: ilustraciones SVG originales (interpretaciones, no fotografías).
+capitulos.json: inventario de capítulos como referencia editorial; las páginas
+HTML son estáticas y deben actualizarse al modificar títulos o enlaces.
+
+Al publicar, menu.html es el menú y index.html sigue siendo el capítulo 1
+para conservar los enlaces de la entrega original. Puedes enlazar menu.html
+como entrada de la revista. Sube toda la carpeta, incluida assets/.
+
+ACTUALIZACIÓN EDITORIAL
+Títulos objetivos, secciones con mayor presencia de color e infografía
+con tres ilustraciones vectoriales originales en assets/idh-*.svg.
+Autoría visible en los pies de página: los kekes.

@@ -1,0 +1,102 @@
+/* Identidad visual del capítulo 01: Tikal y la selva de Petén. */
+:root{--paper:#f4f3e7;--ink:#183e2d;--muted:#52644e;--line:#ccd4c0;--orange:#3e6939;--soft:#e9eddd;--green:#dfe8d2;--dark:#163727;--card:#fcfcf2}.hero h1 em{color:#4b713e}.tikal-hero{position:relative;min-height:440px;height:480px;overflow:hidden;border-radius:230px 230px 3px 3px;background:#6f9461}.tikal-hero img{width:100%;height:100%;object-fit:cover;object-position:50% 43%;display:block}.tikal-hero figcaption{position:absolute;bottom:0;left:0;right:0;padding:24px 22px;display:flex;gap:15px;justify-content:space-between;background:linear-gradient(transparent,#102f28ed);color:#fff9dd;font-size:8px;letter-spacing:.13em}.header-right .menu-return{border:1px solid var(--line);text-decoration:none;font-size:11px;padding:8px 13px;white-space:nowrap}.header-right .menu-return:hover{background:var(--ink);color:var(--paper)}.scale>div:nth-child(2){border-color:#69864b}.scale>div:nth-child(3){border-color:#416b3b}.scale>div:nth-child(4){border-color:#183e2d}.region.national .bar{background:#3d6939}.facts b span{color:#cfdaa3}.infographic-end em{color:#416b3b}body.dark{--paper:#142b20;--ink:#f0f2df;--muted:#bdcbb0;--line:#43583c;--orange:#b3ce94;--soft:#1e3526;--card:#1b3425;--green:#29432e;--dark:#102b1c}body.dark .hero h1 em,body.dark .infographic-end em{color:#b3ce94}body.dark .region.national .bar{background:#b3ce94}@media(max-width:1000px){.header-right{gap:12px}.edition{font-size:8px}.tikal-hero{height:420px;min-height:350px}}@media(max-width:700px){.header-right{gap:10px}.header-right .menu-return{font-size:10px;padding:7px 8px}.tikal-hero{height:370px;min-height:270px}.tikal-hero figcaption{font-size:7px;padding:20px}.topline{gap:10px}.brand{gap:8px}.brand-mark{padding-right:10px}}@media(max-width:370px){.brand>span:last-child{display:none}.header-right{gap:8px}}
+
+/* Más color en el capítulo, con texto de alto contraste. */
+.hero{background:linear-gradient(115deg,#eef2d8 0%,#f4f3e7 65%)}
+.hero .hero-deck{color:#254d35;font-family:Georgia,'Times New Roman',serif;font-size:27px;line-height:1.25}
+.issue-strip{background:#dce8c4;border-color:#b9cda0}
+.intro{background:#f7f0d7;border-top:6px solid #d9ad54}
+.section-side h2{max-width:350px}
+.data-section{background:#dcebbf;border-top:6px solid #71964e}
+.stats article:first-child strong{color:#38652f}
+.stats article:nth-child(2) strong{color:#805120}
+.stats article:nth-child(3) strong{color:#28665e}
+.stats article:nth-child(4) strong{color:#8b492e}
+#dimensiones{background:#fff6dc;border-top:6px solid #e6b75b}
+.dimensions{gap:22px}
+.dimensions article{display:block;padding:0 0 26px;border:1px solid #c6d8a4;border-radius:16px;overflow:hidden;background:#edf4d9;box-shadow:0 5px 0 #d5dfb9}
+.dimensions article:nth-child(2){background:#e0f1ed;border-color:#b4d6cd;box-shadow:0 5px 0 #bbd8cd}
+.dimensions article:nth-child(3){background:#f9e5cd;border-color:#e4c39c;box-shadow:0 5px 0 #e7ceb0}
+.dimensions article .dimension-scene{margin:0 0 23px;padding:0;border:0;min-height:0;background:none}
+.dimension-scene img{display:block;width:100%;height:auto;aspect-ratio:600/330;object-fit:cover}
+.dimensions article>.eyebrow,.dimensions article>h3,.dimensions article>p{margin-left:25px;margin-right:25px}
+.dimensions article>.eyebrow{font-size:9px;color:#3e5930}
+.dimensions article:nth-child(2)>.eyebrow{color:#25594f}
+.dimensions article:nth-child(3)>.eyebrow{color:#754225}
+.dimensions h3{font-size:34px;margin-top:9px;margin-bottom:10px;color:#244b32}
+.dimensions article:nth-child(2) h3{color:#205a50}
+.dimensions article:nth-child(3) h3{color:#794426}
+.dimensions article>div:not(.dimension-scene){margin:24px 25px 0;padding-top:18px;min-height:92px;border-color:#a8bf83}
+.dimensions article:nth-child(2)>div:not(.dimension-scene){border-color:#97bfb4}
+.dimensions article:nth-child(3)>div:not(.dimension-scene){border-color:#cba67e}
+.dimensions article p{color:#314b34}
+.dimensions article small{color:#495f43}
+.infographic-end{font-size:24px;line-height:1.5;margin-top:12px}
+.infographic-end em{font-family:Arial,Helvetica,sans-serif;font-size:13px;font-style:normal;color:#52644e}
+.scale{background:#fdfbf0;padding:17px 18px 8px;border-radius:10px;border:1px solid #dfd4ae}
+.scale>div:nth-child(1){border-color:#d6985d}
+.scale>div:nth-child(2){border-color:#d5b543}
+.scale>div:nth-child(3){border-color:#7aa15a}
+.scale>div:nth-child(4){border-color:#2c7058}
+#comparativa{background:#e5efdb;border-top:6px solid #8aa666}
+.comparison-note{border-color:#71964e;background:#f3f7e9;padding:25px;border-radius:0 12px 12px 0}
+#evolucion{background:#e5f0e8;border-top:6px solid #6d9c89}
+.chart-card{background:#fafff7;border-radius:12px;border-color:#b2cbbb}
+.did-you-know{background:#21533a;border-top:6px solid #ceab58}
+.did-you-know h2{color:#f2dc94}
+#territorio{background:#f6edcf;border-top:6px solid #d1b066}
+.bar-track{background:#e7ddba}
+.region .bar{background:#7a9d65}
+.region:nth-child(even) .bar{background:#4f8b74}
+.region.national .bar{background:#a65e35}
+#voces{background:#e4ecda;border-top:6px solid #a1b780}
+.voice{border-radius:12px;background:#f5f8e9;border-color:#bdcfaa;border-top:5px solid #86a363}
+.voice:nth-child(2){border-top-color:#4b8a77;background:#edf5e8}
+.voice:nth-child(3){border-top-color:#bf9151;background:#f9f0d9}
+#fotografias{background:#f3e8d2;border-top:6px solid #c7a66e}
+.photo-placeholder{background:#e3e9cb;border-color:#879a6c;border-radius:12px}
+.reflection{background:#dfebd2;border-top:6px solid #82a15e}
+.reading{background:#f3f5df;border-radius:10px;border-color:#b7c89b}
+.sources{background:#f8f4e4;border-top:6px solid #d3bd82}
+.principles{background:#cadfba}
+footer{background:#173d2a;color:#f0f2df;border-color:#385b3c}
+footer .footer-title em{color:#bed899}
+footer .pending{background:#294c34;color:#e2ebd2;border-color:#aabf90}
+footer small{color:#cbdabb}
+.authors{font-weight:bold;font-size:13px;letter-spacing:.02em}
+footer .authors{color:#f2da98}
+
+body.dark .hero{background:linear-gradient(115deg,#243a24,#142b20)}
+body.dark .hero .hero-deck{color:#d6e6ba}
+body.dark .issue-strip{background:#2b442a;border-color:#526b3e}
+body.dark .intro,body.dark #territorio{background:#343421}
+body.dark .data-section,body.dark #comparativa,body.dark #voces{background:#253d27}
+body.dark #dimensiones{background:#302e1e}
+body.dark #evolucion{background:#1f392e}
+body.dark .chart-card{background:#1b3425;border-color:#486b50}
+body.dark #fotografias{background:#362e20}
+body.dark .reflection{background:#283d24}
+body.dark .sources{background:#2c3020}
+body.dark .principles{background:#324c2d}
+body.dark .stats article strong{color:#d6e6aa}
+body.dark .stats article:nth-child(2) strong{color:#edc883}
+body.dark .stats article:nth-child(3) strong{color:#a8dcc7}
+body.dark .stats article:nth-child(4) strong{color:#efba94}
+body.dark .dimensions article{background:#293c24;border-color:#5a7347;box-shadow:0 5px 0 #425631}
+body.dark .dimensions article:nth-child(2){background:#1e3c32;border-color:#456f5f;box-shadow:0 5px 0 #315646}
+body.dark .dimensions article:nth-child(3){background:#433326;border-color:#85654b;box-shadow:0 5px 0 #60482e}
+body.dark .dimensions article h3,body.dark .dimensions article>.eyebrow{color:#dfedc8}
+body.dark .dimensions article p,body.dark .dimensions article small{color:#d1debf}
+body.dark .dimensions article:nth-child(2) h3,body.dark .dimensions article:nth-child(2)>.eyebrow{color:#b8e3d4}
+body.dark .dimensions article:nth-child(3) h3,body.dark .dimensions article:nth-child(3)>.eyebrow{color:#f4d2ac}
+body.dark .infographic-end em{color:#bdcbb0}
+body.dark .scale{background:#29331f;border-color:#69714c}
+body.dark .comparison-note,body.dark .reading{background:#2b442a;border-color:#69834e}
+body.dark .voice{background:#2c4028;border-color:#6e8854}
+body.dark .voice:nth-child(2){background:#243e31;border-top-color:#74b79d}
+body.dark .voice:nth-child(3){background:#413b26;border-top-color:#d6b36f}
+body.dark .photo-placeholder{background:#38412b;border-color:#8fa86e}
+body.dark .bar-track{background:#4b4a31}
+body.dark .region.national .bar{background:#dfb574}
+@media(max-width:700px){.hero .hero-deck{font-size:25px}.dimensions article{display:block;padding:0 0 24px}.dimensions article .dimension-scene{margin-bottom:20px}.dimension-scene img{max-height:240px;object-fit:cover}.dimensions article>div:not(.dimension-scene){min-height:0}.infographic-end{font-size:21px}.scale{padding:15px 12px 8px}.comparison-note{padding:20px}.hero-caption{max-width:320px}.stats strong{font-size:49px}}
+@media print{.intro,#dimensiones,#comparativa,#evolucion,#territorio,#voces,#fotografias,.reflection,.sources{background:white!important}.dimension-scene img{print-color-adjust:exact}.dimensions article{break-inside:avoid}footer{background:white;color:#183e2d}footer .authors{color:#183e2d}}

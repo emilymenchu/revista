@@ -1,0 +1,80 @@
+[
+  {
+    "n": 1,
+    "place": "Tikal",
+    "title": "Introducción al desarrollo humano",
+    "color": "#9ebc89",
+    "sky": "#dce1b4",
+    "far": "#6f9461",
+    "near": "#254e39",
+    "accent": "#e2bf70",
+    "kind": "tikal",
+    "href": "index.html",
+    "status": "Disponible"
+  },
+  {
+    "n": 2,
+    "place": "Lago de Atitlán",
+    "title": "Una nueva mirada al desarrollo",
+    "color": "#85cce0",
+    "sky": "#b4d8df",
+    "far": "#638eac",
+    "near": "#356784",
+    "accent": "#ecd6a4",
+    "kind": "lake",
+    "href": "capitulo-2.html",
+    "status": "Próximamente"
+  },
+  {
+    "n": 3,
+    "place": "Antigua Guatemala",
+    "title": "Por descubrir",
+    "color": "#e5ad88",
+    "sky": "#d8bca3",
+    "far": "#746f78",
+    "near": "#925e47",
+    "accent": "#dc9a57",
+    "kind": "antigua",
+    "href": "capitulo-3.html",
+    "status": "Próximamente"
+  },
+  {
+    "n": 4,
+    "place": "Semuc Champey",
+    "title": "Por descubrir",
+    "color": "#9bd2bd",
+    "sky": "#c4d9bd",
+    "far": "#4c8262",
+    "near": "#1a584a",
+    "accent": "#6bc3b6",
+    "kind": "pools",
+    "href": "capitulo-4.html",
+    "status": "Próximamente"
+  },
+  {
+    "n": 5,
+    "place": "Quetzaltenango",
+    "title": "Por descubrir",
+    "color": "#bcb9da",
+    "sky": "#c6c4d6",
+    "far": "#727a96",
+    "near": "#4a536d",
+    "accent": "#b29c82",
+    "kind": "xela",
+    "href": "capitulo-5.html",
+    "status": "Próximamente"
+  },
+  {
+    "n": 6,
+    "place": "Río Dulce",
+    "title": "Por descubrir",
+    "color": "#9bbdc3",
+    "sky": "#c4d8d4",
+    "far": "#567f74",
+    "near": "#224e49",
+    "accent": "#509aa3",
+    "kind": "river",
+    "href": "capitulo-6.html",
+    "status": "Próximamente"
+  }
+]
