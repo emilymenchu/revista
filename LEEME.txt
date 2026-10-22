@@ -1,0 +1,34 @@
+GUATEMALA, MEDIDA EN VIDAS
+Revista digital estática · HTML, CSS y JavaScript · Sin dependencias externas
+
+ABRIR
+Abre index.html en cualquier navegador. No requiere instalación ni servidor.
+Conserva index.html, styles.css y app.js en la misma carpeta.
+
+EDITAR
+Los textos y los bloques pendientes se encuentran en index.html.
+La serie histórica y los datos regionales están al principio de app.js.
+El diseño y los colores se editan en styles.css.
+Para agregar otra sección semanal, duplica una sección HTML y agrega su enlace al menú.
+
+PENDIENTES DEL CONTENIDO ORIGINAL
+• Confirmar Honduras: IDH, puesto y categoría.
+• Sustituir los valores aproximados del gráfico y agregar un año: 2015–2023
+  contiene nueve observaciones, mientras la tarea solicita diez años.
+• Incorporar testimonios reales con consentimiento y sus créditos.
+• Agregar dos fotografías con alt, descripción y referencia APA. Al insertar
+  imágenes, comprímelas y usa loading="lazy", width, height y alt descriptivo.
+• Completar reflexiones, lectura asociada y datos académicos del pie.
+• Verificar datos, denominación de regiones y referencias contra las fuentes
+  consultadas. Se conservó el contenido entregado sin presentarlo como validado.
+• El dato histórico de esperanza de vida de Prensa Libre usa otra medición.
+
+PUBLICAR
+Puedes subir estos tres archivos a un alojamiento estático, como GitHub Pages
+ o Netlify. Sitúa index.html en la raíz de publicación. No hay proceso de build.
+La herramienta Sites no está habilitada en el espacio de trabajo actual;
+esta entrega no incluye una dirección web publicada.
+
+PRIVACIDAD
+No se añaden rastreadores, formularios ni servicios externos. El botón de tema
+recuerda la preferencia en este navegador mediante localStorage cuando está disponible.
