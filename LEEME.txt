@@ -37,13 +37,17 @@ recuerda la preferencia en este navegador mediante localStorage cuando está dis
 MENÚ POR CAPÍTULOS
 menu.html: índice visual de seis capítulos con portadas ilustradas.
 index.html: capítulo 1, Tikal, tonos verdes y contenido existente.
-capitulo-2.html: próxima entrega, Lago de Atitlán, tonos azules.
+capitulo-2.html: capítulo 2 disponible, Educación y oportunidades de
+conocimiento, con Lago de Atitlán como identidad visual.
 capitulo-3.html a capitulo-6.html: propuestas visuales de destinos futuros.
 No contienen temas académicos inventados. Los destinos pueden cambiarse.
 
 capitulos.css: diseño del menú y portadas de próximas entregas.
+educacion.css: diseño adaptable del capítulo 2. La introducción completa y las
+tablas adicionales se despliegan al pulsar sus títulos.
 tikal.css: identidad del primer capítulo, sobre styles.css.
-assets/: ilustraciones SVG originales (interpretaciones, no fotografías).
+assets/: ilustraciones SVG originales y dos fotografías de escuelas del capítulo
+2, con créditos y licencias indicados en esa página.
 capitulos.json: inventario de capítulos como referencia editorial; las páginas
 HTML son estáticas y deben actualizarse al modificar títulos o enlaces.
 
@@ -55,3 +59,11 @@ ACTUALIZACIÓN EDITORIAL
 Títulos objetivos, secciones con mayor presencia de color e infografía
 con tres ilustraciones vectoriales originales en assets/idh-*.svg.
 Autoría visible en los pies de página: los kekes.
+
+CAPÍTULO 2 · EDUCACIÓN
+La sección ofrece una introducción de 300 a 400 palabras, indicadores sencillos,
+tres historias documentadas, dos fotografías, un cuadro «¿Sabías que…?», preguntas
+de reflexión y referencias. Las historias son reportajes de UNICEF y no entrevistas
+realizadas por el grupo. Las respuestas personales y la ilustración de la escuela
+ideal corresponden al grupo y están pendientes. Antes de reutilizar cifras en
+otra entrega, comprobar año, población y definición en las fuentes enlazadas.
