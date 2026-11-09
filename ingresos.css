@@ -1,0 +1,63 @@
+/* Estilos exclusivos del capítulo 4; no modifica los estilos compartidos. */
+.income-page{--orange:#246b59;--green:#e2eee6;--teal:#397c81}
+.income-page.dark{--orange:#9bd2bd;--green:#233e35;--teal:#92cbd0}
+.income-page .edu-hero h1{max-width:720px;overflow-wrap:anywhere}
+.income-page .income-date{display:block;margin-top:22px;font-size:11px;line-height:1.7;color:var(--muted)}
+.income-page .income-date strong{color:var(--ink)}
+.income-page .income-summary{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:22px}
+.income-page .income-summary article{padding:26px;border:1px solid var(--line);background:var(--card)}
+.income-page .income-summary span{display:block;font-size:10px;letter-spacing:.12em;color:var(--muted)}
+.income-page .income-summary strong{display:block;font:46px/1.15 Georgia,serif;letter-spacing:-.04em;color:var(--orange);margin:13px 0}
+.income-page .income-summary p{font-size:13px;line-height:1.7}
+.income-page .income-summary small{display:block;font-size:11px;margin-top:14px;color:var(--muted)}
+.income-page .income-subtitle{font:28px/1.25 Georgia,serif;margin:42px 0 14px}
+.income-page .basket-grid{display:grid;grid-template-columns:1fr 1fr;gap:20px;margin:25px 0}
+.income-page .basket-grid article{border-left:3px solid var(--orange);padding:20px 24px;background:var(--card)}
+.income-page .basket-grid h3{font:24px Georgia,serif;margin:0 0 10px}
+.income-page .basket-grid p{font-size:13px;line-height:1.8}
+.income-page .basket-grid strong{font-size:20px;white-space:nowrap}
+.income-page .income-table{width:100%;border-collapse:collapse;min-width:790px;font-size:13px;background:var(--card)}
+.income-page .income-table.compact{min-width:650px}
+.income-page .income-table caption{text-align:left;font-weight:bold;font-size:14px;margin-bottom:12px;color:var(--ink)}
+.income-page .income-table th,.income-page .income-table td{padding:17px 18px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top}
+.income-page .income-table thead{background:var(--ink);color:var(--paper)}
+.income-page .income-table tbody tr:nth-child(even){background:var(--soft)}
+.income-page .income-table td.money{white-space:nowrap;font-variant-numeric:tabular-nums}
+.income-page .income-table td small{display:block;margin-top:5px;line-height:1.55;color:var(--muted)}
+.income-page .table-scroll:focus-visible{outline:3px solid var(--orange);outline-offset:3px}
+.income-page .table-hint{font-size:11px;color:var(--muted);margin:12px 0 0}
+.income-page .method-note{font-size:12px;line-height:1.8;color:var(--muted);margin:18px 0 0;max-width:1050px}
+.income-page .method-note strong{color:var(--ink)}
+.income-page .income-reading{display:grid;grid-template-columns:1fr 1fr;gap:30px;border-top:1px solid var(--line);margin-top:30px;padding-top:24px}
+.income-page .income-reading h3{font:24px/1.25 Georgia,serif;margin:0 0 12px}
+.income-page .income-reading p{font-size:14px;line-height:1.85}
+.income-page .income-callout{margin-top:28px;padding:22px 26px;background:var(--green);border-left:3px solid var(--orange);font-size:14px;line-height:1.85}
+.income-page .remittance-figure{padding:36px;background:var(--card);border:1px solid var(--line);--remit-1:#235c4d;--remit-2:#507b81;--remit-3:#a96b42;--remit-4:#746584}
+.income-page .remittance-heading{display:flex;justify-content:space-between;gap:25px;align-items:center;margin-bottom:30px}
+.income-page .remittance-heading h3{font:36px/1.15 Georgia,serif;margin:8px 0 12px;max-width:550px;letter-spacing:-.035em}
+.income-page .remittance-heading p{font-size:13px;max-width:600px;color:var(--muted)}
+.income-page .remittance-heading span{font-size:10px;letter-spacing:.13em;color:var(--orange);font-weight:bold}
+.income-page .remittance-seal{flex:0 0 110px;width:110px;height:110px;border:1px solid var(--line);border-radius:50%;display:grid;place-content:center;text-align:center;background:var(--green)}
+.income-page .remittance-seal b{font:33px/1 Georgia,serif}
+.income-page .remittance-seal small{font-size:9px;letter-spacing:.1em;margin-top:9px}
+.income-page .remittance-bar{display:flex;height:50px;overflow:hidden}
+.income-page .remittance-bar>span{width:var(--share);background:var(--segment);display:flex;align-items:center;justify-content:center;color:#fff;font-size:13px;font-weight:bold;border-right:2px solid var(--card);font-variant-numeric:tabular-nums}
+.income-page .remittance-bar>span:last-child{border:0}
+.income-page .remittance-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:24px;margin-top:32px}
+.income-page .remittance-grid article{border-top:4px solid var(--segment);padding-top:20px}
+.income-page .remittance-grid svg{width:40px;height:40px;stroke:var(--orange);stroke-width:1.5;fill:none;stroke-linecap:round;stroke-linejoin:round}
+.income-page .remittance-grid strong{display:block;font:39px/1.1 Georgia,serif;margin-top:16px;color:var(--ink)}
+.income-page .remittance-grid h4{font:22px/1.2 Georgia,serif;margin:12px 0}
+.income-page .remittance-grid p{font-size:12px;line-height:1.8}
+.income-page .remittance-figure>figcaption{font-size:11px;color:var(--muted);line-height:1.8;border-top:1px solid var(--line);margin-top:28px;padding-top:18px}
+.income-page .question-list{grid-template-columns:1fr 1fr;gap:45px}
+.income-page .question-list p+p{margin-top:15px}
+.income-page .reflection-prompt{display:block;font-size:12px;color:var(--muted);border-top:1px solid var(--line);margin-top:22px;padding-top:15px}
+.income-page .chapter-next{display:flex;justify-content:space-between;gap:25px;padding:26px 5.5%;font-size:12px}
+.income-page .references li{scroll-margin-top:160px}
+.income-page.dark .remittance-figure{--remit-1:#30765f;--remit-2:#507b81;--remit-3:#975e36;--remit-4:#746584}
+@media(max-width:1000px){.income-page .remittance-grid{grid-template-columns:1fr 1fr}.income-page .income-summary strong{font-size:38px}}
+@media(max-width:700px){.income-page .income-summary,.income-page .basket-grid,.income-page .income-reading,.income-page .question-list{grid-template-columns:1fr}.income-page .income-summary{gap:12px}.income-page .income-summary article{padding:22px}.income-page .remittance-figure{padding:24px 18px}.income-page .remittance-heading{align-items:flex-start}.income-page .remittance-heading h3{font-size:30px}.income-page .remittance-seal{flex-basis:76px;width:76px;height:76px}.income-page .remittance-seal b{font-size:25px}.income-page .remittance-seal small{font-size:7px}.income-page .remittance-grid{gap:24px 18px}.income-page .remittance-grid strong{font-size:34px}.income-page .remittance-grid h4{font-size:21px}.income-page .remittance-bar>span{font-size:10px}.income-page .references li{scroll-margin-top:95px}}
+@media(max-width:700px){.income-page .edu-hero h1{font-size:clamp(42px,10.6vw,72px)}}
+@media(max-width:380px){.income-page .remittance-heading{display:block}.income-page .remittance-seal{display:none}.income-page .remittance-grid{grid-template-columns:1fr}.income-page .remittance-grid article{display:grid;grid-template-columns:42px 1fr;gap:0 14px}.income-page .remittance-grid strong{margin-top:0}.income-page .remittance-grid h4,.income-page .remittance-grid p{grid-column:2}.income-page .chapter-next{flex-direction:column}}
+@media print{.income-page{--paper:#fff;--ink:#183c34;--muted:#53655c;--card:#fff;--soft:#f0f3ee;--line:#c6cec6;--orange:#246b59;--green:#e2eee6}.income-page .remittance-bar,.income-page .income-table thead{print-color-adjust:exact}.income-page .table-scroll{overflow:visible}.income-page .income-table,.income-page .income-table.compact{min-width:0;font-size:9px}.income-page .income-table td,.income-page .income-table th{padding:8px}.income-page .remittance-grid{grid-template-columns:1fr 1fr}.income-page .chapter-next,.income-page .table-hint{display:none}}
