@@ -1,0 +1,25 @@
+/* Identidad del capítulo 5 sobre el diseño editorial compartido. */
+.migration-page{--paper:#f5f3ef;--ink:#34394f;--muted:#5e6172;--line:#d6d4df;--orange:#65508b;--soft:#eae6ee;--card:#fffdf9;--green:#e6e4ed;--teal:#4c737c}
+.migration-page .edu-hero h1{font-size:clamp(48px,4.9vw,75px)}
+.migration-page .edu-hero img{object-position:center 52%}
+.migration-cards{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:22px}
+.migration-cards article{border-top:2px solid var(--orange);padding:24px 0 0}
+.migration-cards article>span{font-size:10px;font-weight:bold;letter-spacing:.1em;color:var(--orange)}
+.migration-cards h3{font:26px/1.2 Georgia,serif;margin:18px 0 14px}
+.migration-cards p{font-size:14px;line-height:1.8}
+.migration-page .chart-row{grid-template-columns:84px minmax(0,1fr) 65px;gap:8px}
+.migration-page .chart-track>span{transform:none}
+.migration-page .comparison-chart:nth-child(3) .chart-track>span{background:#726387}
+.migration-page #impacto .intro-rest h3{font:26px/1.3 Georgia,serif;margin:0 0 12px}
+.migration-page #riesgos{background:var(--green);max-width:none}
+.risk-cards{grid-template-columns:repeat(3,minmax(0,1fr))}
+.return-stories,.migration-questions{grid-template-columns:repeat(2,minmax(0,1fr))}
+.migration-page .did-you-know>span{color:#d8c5ef}
+.migration-next{display:flex;justify-content:space-between;gap:20px;padding:26px 5.5%;font-size:13px;flex-wrap:wrap}
+.migration-page.dark{--paper:#242434;--ink:#f0edf5;--muted:#c3bed2;--line:#505064;--orange:#cfb6f0;--soft:#302c40;--card:#2c2c40;--green:#353247;--teal:#8bc4d0}
+.migration-page.dark .edu-button,.migration-page.dark .did-you-know,.migration-page.dark .education-footer{background:#ded6eb;color:#302c40}
+.migration-page.dark .education-footer a,.migration-page.dark .did-you-know>span{color:#51416c}
+.migration-page.dark .comparison-chart:nth-child(3) .chart-track>span{background:#c6b4df}
+@media(max-width:1100px){.migration-cards{grid-template-columns:repeat(2,minmax(0,1fr))}.risk-cards{grid-template-columns:repeat(3,minmax(0,1fr))}}
+@media(max-width:700px){.migration-page .edu-hero h1{font-size:clamp(43px,11vw,68px)}.migration-cards,.risk-cards,.return-stories,.migration-questions{grid-template-columns:1fr}.migration-cards{gap:30px}}
+@media print{.migration-page{--paper:white;--ink:black;--muted:#333;--line:#bbb;--orange:#51416c;--card:white;--green:#eee;--soft:#eee}.migration-cards article,.migration-questions article{break-inside:avoid}.migration-page .edu-hero>div,.migration-page .edu-hero figure{animation:none}.migration-page details>*{display:block!important}.migration-page .did-you-know,.migration-page .education-footer{background:#eee;color:black}.migration-next{display:none}}
