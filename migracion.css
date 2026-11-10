@@ -1,7 +1,9 @@
 /* Identidad del capítulo 5 sobre el diseño editorial compartido. */
 .migration-page{--paper:#f5f3ef;--ink:#34394f;--muted:#5e6172;--line:#d6d4df;--orange:#65508b;--soft:#eae6ee;--card:#fffdf9;--green:#e6e4ed;--teal:#4c737c}
 .migration-page .edu-hero h1{font-size:clamp(48px,4.9vw,75px)}
-.migration-page .edu-hero img{object-position:center 52%}
+.migration-page .edu-hero .migration-cover img{display:block;width:100%;height:auto;aspect-ratio:3/2;object-fit:contain;border-radius:4px}
+.migration-page .migration-cover figcaption{font-size:12px;line-height:1.7;padding-top:16px}
+.migration-page.dark .edu-hero .migration-cover img{filter:none}
 .migration-cards{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:22px}
 .migration-cards article{border-top:2px solid var(--orange);padding:24px 0 0}
 .migration-cards article>span{font-size:10px;font-weight:bold;letter-spacing:.1em;color:var(--orange)}
