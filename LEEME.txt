@@ -39,8 +39,10 @@ menu.html: índice visual de seis capítulos con portadas ilustradas.
 index.html: capítulo 1, Tikal, tonos verdes y contenido existente.
 capitulo-2.html: capítulo 2 disponible, Educación y oportunidades de
 conocimiento, con Lago de Atitlán como identidad visual.
-capitulo-3.html a capitulo-6.html: propuestas visuales de destinos futuros.
-No contienen temas académicos inventados. Los destinos pueden cambiarse.
+capitulo-3.html: portada provisional de Antigua Guatemala.
+capitulo-4.html: portada provisional de Semuc Champey.
+capitulo-5.html: Migración, Quetzaltenango.
+capitulo-6.html: portada provisional de Río Dulce.
 
 capitulos.css: diseño del menú y portadas de próximas entregas.
 educacion.css: diseño adaptable del capítulo 2. La introducción completa y las
@@ -67,3 +69,12 @@ de reflexión y referencias. Las historias son reportajes de UNICEF y no entrevi
 realizadas por el grupo. Las respuestas personales y la ilustración de la escuela
 ideal corresponden al grupo y están pendientes. Antes de reutilizar cifras en
 otra entrega, comprobar año, población y definición en las fuentes enlazadas.
+
+CAPÍTULO 5 · MIGRACIÓN
+Causas, gráficos por sexo y edad, impacto familiar y comunitario, riesgos de la
+migración irregular y dos historias de retorno documentadas por UNICEF.
+Las dos preguntas de reflexión incluyen guías para completar en el cuaderno.
+Datos históricos: OIM 2022 e IGM al 12 de agosto de 2024. Cada gráfico explica
+su población, período y cálculos; los registros de retorno no miden emigración.
+migracion.css adapta los colores de Quetzaltenango sobre educacion.css.
+Se reutiliza educacion.js para tema, menú, progreso y gráficos.

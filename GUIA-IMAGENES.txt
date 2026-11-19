@@ -1,0 +1,7 @@
+REVISTA COMPLETA CON FOTOGRAFIAS
+
+Se agregaron galerias en capitulos 1, 2, 3 y 4. El capitulo 5 conserva las nueve fotografias ya integradas. El capitulo 6 conserva la portada provisional.
+
+Subir todos los archivos a la raiz de GitHub Pages, manteniendo assets/ y el nuevo fotografias-revista.css.
+
+Las fotografias aportadas por el usuario requieren verificar autoria, licencias y permisos antes de publicarse. Los pies de foto no atribuyen identidades ni lugares que no esten confirmados.
