@@ -1,0 +1,85 @@
+/* Cuadro informativo del capítulo de salud. */
+#programas .section-top p {
+  max-width: 760px;
+  line-height: 1.65;
+}
+
+.health-programs {
+  max-width: 1120px;
+  margin: 0 auto;
+  border-top: 1px solid var(--line);
+}
+
+.health-program {
+  display: grid;
+  grid-template-columns: minmax(220px, 34%) minmax(0, 1fr);
+  gap: clamp(24px, 5vw, 70px);
+  padding: 32px 0;
+  border-bottom: 1px solid var(--line);
+}
+
+.health-program-number {
+  display: block;
+  color: var(--orange);
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: .12em;
+}
+
+.health-program h3 {
+  margin: 12px 0;
+  font: 30px/1.2 Georgia, serif;
+  letter-spacing: -.02em;
+}
+
+.health-program-place {
+  color: var(--muted);
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+.health-program-detail p {
+  max-width: 68ch;
+  margin: 0 0 16px;
+  font-size: 16px;
+  line-height: 1.7;
+}
+
+.health-program-detail .health-program-scope {
+  padding-left: 16px;
+  border-left: 3px solid var(--orange);
+  font-size: 14px;
+}
+
+.health-program-source {
+  display: inline-block;
+  margin: 4px 10px 0 0;
+  color: var(--orange);
+  font-size: 14px;
+  font-weight: 700;
+  text-underline-offset: 3px;
+}
+
+.health-program-detail .citation {
+  display: inline-block;
+  font-size: 13px;
+  text-underline-offset: 3px;
+}
+
+@media (max-width: 700px) {
+  .health-program {
+    grid-template-columns: 1fr;
+    gap: 16px;
+    padding: 28px 0;
+  }
+
+  .health-program h3 {
+    font-size: 26px;
+  }
+}
+
+@media print {
+  .health-program {
+    break-inside: avoid;
+  }
+}
