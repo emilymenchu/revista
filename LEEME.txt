@@ -1,80 +1,20 @@
 GUATEMALA, MEDIDA EN VIDAS
-Revista digital estática · HTML, CSS y JavaScript · Sin dependencias externas
+Revista digital estática en HTML, CSS y JavaScript.
 
 ABRIR
-Abre menu.html para explorar el menú de capítulos.
-Abre index.html para leer directamente el capítulo 1 (Tikal). No requiere instalación ni servidor.
-Conserva todas las páginas, estilos y scripts junto con la carpeta assets/.
-
-EDITAR
-Los textos y los bloques pendientes se encuentran en index.html.
-La serie histórica y los datos regionales están al principio de app.js.
-El diseño y los colores se editan en styles.css.
-Para agregar otra sección semanal, duplica una sección HTML y agrega su enlace al menú.
-
-PENDIENTES DEL CONTENIDO ORIGINAL
-• Confirmar Honduras: IDH, puesto y categoría.
-• Sustituir los valores aproximados del gráfico y agregar un año: 2015–2023
-  contiene nueve observaciones, mientras la tarea solicita diez años.
-• Incorporar testimonios reales con consentimiento y sus créditos.
-• Agregar dos fotografías con alt, descripción y referencia APA. Al insertar
-  imágenes, comprímelas y usa loading="lazy", width, height y alt descriptivo.
-• Completar reflexiones, lectura asociada y datos académicos del pie.
-• Verificar datos, denominación de regiones y referencias contra las fuentes
-  consultadas. Se conservó el contenido entregado sin presentarlo como validado.
-• El dato histórico de esperanza de vida de Prensa Libre usa otra medición.
+Abre menu.html para explorar los seis capítulos. index.html abre directamente
+el capítulo 1. Mantén las páginas, estilos, scripts y la carpeta assets/ juntos.
+No se requiere instalación ni servidor para leer la revista localmente.
 
 PUBLICAR
-Puedes subir toda la carpeta a un alojamiento estático, como GitHub Pages
- o Netlify. Sitúa index.html en la raíz de publicación. No hay proceso de build.
-La herramienta Sites no está habilitada en el espacio de trabajo actual;
-esta entrega no incluye una dirección web publicada.
+Puedes alojar estos archivos en GitHub Pages u otro servicio de sitios
+estáticos. Conserva index.html y la carpeta assets/ en la raíz del sitio.
+
+CONTENIDO
+menu.html reúne los capítulos. Las páginas index.html y capitulo-2.html a
+capitulo-6.html contienen los textos, fotografías y referencias de la revista.
+Los créditos de las imágenes disponibles aparecen en cada capítulo.
 
 PRIVACIDAD
-No se añaden rastreadores, formularios ni servicios externos. El botón de tema
-recuerda la preferencia en este navegador mediante localStorage cuando está disponible.
-
-MENÚ POR CAPÍTULOS
-menu.html: índice visual de seis capítulos con portadas ilustradas.
-index.html: capítulo 1, Tikal, tonos verdes y contenido existente.
-capitulo-2.html: capítulo 2 disponible, Educación y oportunidades de
-conocimiento, con Lago de Atitlán como identidad visual.
-capitulo-3.html: portada provisional de Antigua Guatemala.
-capitulo-4.html: portada provisional de Semuc Champey.
-capitulo-5.html: Migración, Quetzaltenango.
-capitulo-6.html: portada provisional de Río Dulce.
-
-capitulos.css: diseño del menú y portadas de próximas entregas.
-educacion.css: diseño adaptable del capítulo 2. La introducción completa y las
-tablas adicionales se despliegan al pulsar sus títulos.
-tikal.css: identidad del primer capítulo, sobre styles.css.
-assets/: ilustraciones SVG originales y dos fotografías de escuelas del capítulo
-2, con créditos y licencias indicados en esa página.
-capitulos.json: inventario de capítulos como referencia editorial; las páginas
-HTML son estáticas y deben actualizarse al modificar títulos o enlaces.
-
-Al publicar, menu.html es el menú y index.html sigue siendo el capítulo 1
-para conservar los enlaces de la entrega original. Puedes enlazar menu.html
-como entrada de la revista. Sube toda la carpeta, incluida assets/.
-
-ACTUALIZACIÓN EDITORIAL
-Títulos objetivos, secciones con mayor presencia de color e infografía
-con tres ilustraciones vectoriales originales en assets/idh-*.svg.
-Autoría visible en los pies de página: los kekes.
-
-CAPÍTULO 2 · EDUCACIÓN
-La sección ofrece una introducción de 300 a 400 palabras, indicadores sencillos,
-tres historias documentadas, dos fotografías, un cuadro «¿Sabías que…?», preguntas
-de reflexión y referencias. Las historias son reportajes de UNICEF y no entrevistas
-realizadas por el grupo. Las respuestas personales y la ilustración de la escuela
-ideal corresponden al grupo y están pendientes. Antes de reutilizar cifras en
-otra entrega, comprobar año, población y definición en las fuentes enlazadas.
-
-CAPÍTULO 5 · MIGRACIÓN
-Causas, gráficos por sexo y edad, impacto familiar y comunitario, riesgos de la
-migración irregular y dos historias de retorno documentadas por UNICEF.
-Las dos preguntas de reflexión incluyen guías para completar en el cuaderno.
-Datos históricos: OIM 2022 e IGM al 12 de agosto de 2024. Cada gráfico explica
-su población, período y cálculos; los registros de retorno no miden emigración.
-migracion.css adapta los colores de Quetzaltenango sobre educacion.css.
-Se reutiliza educacion.js para tema, menú, progreso y gráficos.
+La revista no incorpora rastreadores ni servicios externos. La preferencia
+de tema se guarda en este navegador mediante localStorage cuando está disponible.
