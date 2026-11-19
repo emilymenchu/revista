@@ -13,7 +13,8 @@ estáticos. Conserva index.html y la carpeta assets/ en la raíz del sitio.
 CONTENIDO
 menu.html reúne los capítulos. Las páginas index.html y capitulo-2.html a
 capitulo-6.html contienen los textos, fotografías y referencias de la revista.
-Los créditos de las imágenes disponibles aparecen en cada capítulo.
+Los créditos de las fotografías con fuente identificada se enlazan junto a
+las imágenes correspondientes.
 
 PRIVACIDAD
 La revista no incorpora rastreadores ni servicios externos. La preferencia
