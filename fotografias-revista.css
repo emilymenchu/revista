@@ -1,0 +1,11 @@
+/* Galerias editoriales de fotografias para todos los capitulos */
+.editorial-photos{max-width:1450px;margin:0 auto;padding:55px 5.5%;color:var(--ink);background:var(--paper)}
+.editorial-photos h2{font:normal clamp(28px,3.4vw,43px)/1.15 Georgia,serif;margin:8px 0 13px}
+.editorial-photos .photo-intro{font-size:14px;color:var(--muted);max-width:850px;margin-bottom:26px}
+.editorial-photo-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:22px}
+.editorial-photo-grid figure{margin:0;min-width:0;background:var(--card);border:1px solid var(--line);overflow:hidden}
+.editorial-photo-grid img{width:100%;height:300px;object-fit:cover;display:block}
+.editorial-photo-grid figcaption{padding:18px 20px;font-size:13px;line-height:1.7}
+.editorial-photo-grid figcaption strong{display:block;font:normal 23px/1.25 Georgia,serif;margin-bottom:8px}
+.editorial-photo-grid figcaption small{display:block;margin-top:9px;color:var(--muted);font-size:11px}
+@media(max-width:700px){.editorial-photo-grid{grid-template-columns:1fr}.editorial-photo-grid img{height:240px}}
