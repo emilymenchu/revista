@@ -1,5 +1,3 @@
-// Valores aportados en contenido-revista.md. Sustituir por los exactos de PNUD.
-// La serie tiene 9 observaciones: agregar un año verificado para cubrir 10 años.
 const hdiData = [
   {year:2015,value:0.64},{year:2016,value:0.64},{year:2017,value:0.65},
   {year:2018,value:0.65},{year:2019,value:0.65},{year:2020,value:0.65},
